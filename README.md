@@ -88,27 +88,27 @@ pytest
 
 📂 Project Structure
 code-challenge/
-├── .gitignore              # 📄 Ignores __pycache__, .venv, etc.
-├── .venv/                  # 🌐 Virtual environment
-├── README.md               # 📋 Project documentation
-├── requirements.txt        # 📦 Dependencies (e.g., pytest)
-├── lib/                    # 📚 Core modules
+├── .gitignore              
+├── .venv/                
+├── README.md               
+├── requirements.txt      
+├── lib/                    
 │   ├── __init__.py
-│   ├── db/                # 🗄️ Database-related files
+│   ├── db/                
 │   │   ├── __init__.py
-│   │   ├── connection.py  # 🔌 Database connection
-│   │   ├── schema.sql    # 📑 Database schema
-│   │   └── seed.py       # 🌱 Seeds test data
-│   ├── models/           # 🧑‍💻 Object models
+│   │   ├── connection.py  
+│   │   ├── schema.sql   
+│   │   └── seed.py       
+│   ├── models/           
 │   │   ├── __init__.py
 │   │   ├── author.py
 │   │   ├── article.py
 │   │   └── magazine.py
-│   └── debug.py          # 🐞 Debug script for verification
-├── scripts/              # 📜 Utility scripts
-│   ├── setup_db.py       # 🗄️ Initializes database
-│   └── run_queries.py    # 📊 Runs SQL queries
-└── tests/                # 🧪 Test files
+│   └── debug.py         
+├── scripts/             
+│   ├── setup_db.py      
+│   └── run_queries.py    
+└── tests/               
     ├── __init__.py
     ├── test_author.py
     ├── test_article.py
