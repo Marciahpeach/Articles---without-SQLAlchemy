@@ -1,5 +1,7 @@
-Object Relations Code Challenge 📋
+📋Object Relations Code Challenge 
+
 Welcome to the Object Relations Code Challenge! This project showcases object-oriented programming and database interactions using Python and SQLite. It models relationships between Authors, Magazines, and Articles, enabling you to manage and query publication data efficiently.
+
 🚀 Features
 
 🗄️ SQLite database with tables for authors, magazines, and articles.
@@ -7,19 +9,18 @@ Welcome to the Object Relations Code Challenge! This project showcases object-or
 📊 Query scripts to analyze publication data (e.g., most prolific author, article counts).
 🛠️ Debug script to verify database setup, seeding, and model functionality.
 🌱 Seed script to populate the database with test data.
-🧪 Unit tests to validate model behavior.
+
 
 📋 Prerequisites
 
 🐍 Python 3.8+ (tested with Python 3.8.13)
 🗄️ SQLite3 (included with Python)
 💻 Virtualenv (recommended for dependency management)
-🧪 Pytest (for running tests)
 
 🛠️ Installation
 
 Clone the Repository
-git clone https://github.com/your-username/code-challenge.git
+git clone https://github.com/Marciahpeach/Articles---without-SQLAlchemy.git
 cd code-challenge
 
 
@@ -31,12 +32,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 Install Dependencies
 pip install pytest
 
-
-Verify SetupEnsure the project structure matches:
-ls
-
-Expected: lib/  scripts/  tests/  .gitignore  README.md  requirements.txt
-
+Expected: lib/  scripts/  tests/  .gitignore  README.md 
 
 🚀 Usage
 The primary way to verify the project is by running the debug script, which sets up the database, seeds test data, and prints verification output.
@@ -80,18 +76,11 @@ Magazines by Author (ID 1): [{'id': 1, 'name': 'Tech Trends', 'category': 'Techn
 Magazine Name (ID 1): Tech Trends
 Article Titles for Magazine (ID 1): ['AI Revolution', 'Quantum Computing']
 
-
-Run TestsTo verify the project with tests:
-pytest
-
-
-
 📂 Project Structure
 code-challenge/
 ├── .gitignore              
 ├── .venv/                
 ├── README.md               
-├── requirements.txt      
 ├── lib/                    
 │   ├── __init__.py
 │   ├── db/                
@@ -108,11 +97,6 @@ code-challenge/
 ├── scripts/             
 │   ├── setup_db.py      
 │   └── run_queries.py    
-└── tests/               
-    ├── __init__.py
-    ├── test_author.py
-    ├── test_article.py
-    └── test_magazine.py
 
 🤝 Contributing
 Contributions are welcome! To contribute:
