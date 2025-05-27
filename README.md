@@ -1,8 +1,9 @@
-📋Object Relations Code Challenge 
+
+### OBJECTS RELATION
 
 Welcome to the Object Relations Code Challenge! This project showcases object-oriented programming and database interactions using Python and SQLite. It models relationships between Authors, Magazines, and Articles, enabling you to manage and query publication data efficiently.
 
-🚀 Features
+ ### 🚀 FEATURES
 
 🗄️ SQLite database with tables for authors, magazines, and articles.
 🧑‍💻 Object-oriented models (Author, Magazine, Article) with relationship methods.
@@ -11,37 +12,37 @@ Welcome to the Object Relations Code Challenge! This project showcases object-or
 🌱 Seed script to populate the database with test data.
 
 
-📋 Prerequisites
+#### 📋TOOLS USED
 
 🐍 Python 3.8+ (tested with Python 3.8.13)
 🗄️ SQLite3 (included with Python)
 💻 Virtualenv (recommended for dependency management)
 
-🛠️ Installation
+### 🛠️ INSTALLATION
 
 Clone the Repository
 git clone https://github.com/Marciahpeach/Articles---without-SQLAlchemy.git
 cd code-challenge
 
 
-Set Up Virtual Environment
+### SETUP VIRTUAL ENVIRONMENT
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 
-Install Dependencies
+### INSTALLING DEPENDENCIES
 pip install pytest
 
 Expected: lib/  scripts/  tests/  .gitignore  README.md 
 
-🚀 Usage
+### 🚀 USAGE
 The primary way to verify the project is by running the debug script, which sets up the database, seeds test data, and prints verification output.
 
-Run Debug Script
+### RUN THE DEBUG
 python lib/debug.py
 
 
-Expected Output
+### EXPECTED OUTPUT
 Database setup complete.
 Database seeded with test data.
 
@@ -76,7 +77,8 @@ Magazines by Author (ID 1): [{'id': 1, 'name': 'Tech Trends', 'category': 'Techn
 Magazine Name (ID 1): Tech Trends
 Article Titles for Magazine (ID 1): ['AI Revolution', 'Quantum Computing']
 
-📂 Project Structure
+ ### PROJECT STRUCTURE 
+
 code-challenge/
 ├── .gitignore              
 ├── .venv/                
@@ -98,16 +100,16 @@ code-challenge/
 │   ├── setup_db.py      
 │   └── run_queries.py    
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
+### Fork the repository.
 Create a feature branch (git checkout -b feature/YourFeature).
 Commit changes (git commit -m 'Add YourFeature').
 Push to the branch (git push origin feature/YourFeature).
 Open a Pull Request.
 
 Please ensure code follows PEP 8 and includes tests if applicable.
-📜 License
+### 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 🌟 Happy Coding!
